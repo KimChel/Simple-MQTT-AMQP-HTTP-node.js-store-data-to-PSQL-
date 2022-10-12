@@ -1,0 +1,19 @@
+{
+  "name": "mqtt_sub_pub_broker",
+  "version": "1.0.0",
+  "description": "mqtt, javascript, mosca",
+  "main": "broker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kimon heliotis",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "jsonschema": "^1.2.6",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.3.7",
+    "mqtt-packet": "^8.1.1",
+    "pg": "^8.7.3"
+  }
+}

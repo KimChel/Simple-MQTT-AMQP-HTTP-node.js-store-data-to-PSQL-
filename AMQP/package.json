@@ -1,0 +1,24 @@
+{
+  "name": "amqp-pg-node",
+  "version": "1.0.0",
+  "description": "A backend library to collect data and store them in a postgres database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pg",
+    "node.js",
+    "javascript",
+    "amqp"
+  ],
+  "author": "kimon cheliotis",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.7",
+    "amqplib": "^0.10.3",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "pg-format": "^1.0.4"
+  }
+}
